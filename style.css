@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul {
+    display: flex;
+    padding: 30px 0;
+    align-items: center;
+    justify-content: flex-end;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: "courgette";
+    font-weight: 900;
+    font-size: 25px;
+    color: gainsboro;
+}
+.heading{
+    background-image: url(car.jpg);
+    background-size: cover;
+    height: 90vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading h1{
+  color: gainsboro;
+  font-family: "Courgette";
+  font-weight: 700;
+  font-size: 50px;
+}
+#about{
+    margin: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.aboutcar{
+    display: flex;
+    background-color: gainsboro;
+    border-radius: 20px;
+}
+.aboutcar p{
+    padding: 30px;
+    font-size: 20px;
+    align-self: center;
+    line-height: 30px;
+}
+.aboutcar img{
+    border-radius: 0px 25px 25px  0;
+}
+
+#contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+}
+#contact form{
+    border: 2px none ;
+    border-radius: 30px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: gainsboro;
+
+}
+#contact form label,input,button{
+    margin-bottom:20px ;
+}
+#contact form textarea{
+    size: 100px;
+}
+#contact form input,textarea{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+#services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+.serv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.servicesprovide{
+    border: 2px none black;
+    margin: 0 20px;
+}
+.servicesprovide p{
+    background-color: gainsboro;
+    padding: 50px 30px;
+    border-radius: 30px;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+}
+button{
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+    background-color: gray;
+}
